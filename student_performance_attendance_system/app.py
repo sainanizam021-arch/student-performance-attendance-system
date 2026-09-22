@@ -121,7 +121,6 @@ with st.sidebar:
     st.header("Navigation")
     page = st.radio("Go to", ["Dashboard","Students","Attendance","Marks","Student Profile"])
     st.divider()
-    st.info("Demo database includes sample CSE students and subjects.")
 
 if page == "Dashboard":
     students = query_df("SELECT * FROM students")
