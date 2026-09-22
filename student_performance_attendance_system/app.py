@@ -62,7 +62,6 @@ def seed_data():
         ("CS003","Fathima P","CSE",5,"fathima@example.com"),
         ("CS004","Arjun S","CSE",5,"arjun@example.com"),
         ("CS005","Meera Nair","CSE",5,"meera@example.com"),
-        ("CS006","Nikhil K","CSE",5,"nikhil@example.com"),
     ]
     subjects = [
         ("Database Management Systems","CS501"),
@@ -82,7 +81,6 @@ def seed_data():
         "CS003":[(42,36),(40,37),(38,34),(40,38)],
         "CS004":[(42,33),(40,30),(38,32),(40,31)],
         "CS005":[(42,40),(40,38),(38,37),(40,39)],
-        "CS006":[(42,29),(40,27),(38,30),(40,28)],
     }
     mark_values = {
         "CS001":[(18,9,52),(17,9,50),(19,8,54),(16,9,49)],
@@ -90,7 +88,6 @@ def seed_data():
         "CS003":[(19,10,58),(18,10,56),(18,9,55),(19,10,57)],
         "CS004":[(16,8,47),(15,8,44),(16,8,46),(15,9,45)],
         "CS005":[(20,10,60),(19,10,59),(20,9,58),(19,10,60)],
-        "CS006":[(12,7,36),(13,6,38),(14,7,37),(12,7,35)],
     }
     for sid, roll in srows:
         for i, (subid, _) in enumerate(subrows):
